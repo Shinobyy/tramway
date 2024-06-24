@@ -1,0 +1,17 @@
+{
+  "name": "googlemapsnewtotalementfina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+"start:server": "cd server && npm run start",
+    "start:starter": "cd starter && npm run start",
+    "start:all": "concurrently \"npm run start:server\" \"npm run start:starter\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
